@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 118.625 s <<< FAILURE! - in TestSuite
+com.crm.qa.testcases.LoginPageTest.loginPageTitleTest  Time elapsed: 0.153 s  <<< FAILURE!
+java.lang.AssertionError: Login page title does not match expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]
+	at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:31)
+
