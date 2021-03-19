@@ -1,5 +1,6 @@
 package com.crm.qa.testcases;
 
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -55,7 +56,7 @@ public class ContactsPageTest extends TestBase{
 	}
 	
 	@DataProvider
-	public Object[][] getCRMTestData() {
+	public Object[][] getCRMTestData() throws InvalidFormatException {
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
