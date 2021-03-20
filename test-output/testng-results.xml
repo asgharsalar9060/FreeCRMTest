@@ -1,421 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="3" ignored="0" total="15" passed="10" failed="1" skipped="1">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-19T14:03:46 ULAT" name="Free CRM Application Test Automation Test Suite" finished-at="2021-03-19T14:07:33 ULAT" duration-ms="226276">
+  <suite started-at="2021-03-19T19:43:16 ULAT" name="Default suite" finished-at="2021-03-19T19:44:00 ULAT" duration-ms="44308">
     <groups>
     </groups>
-    <test started-at="2021-03-19T14:03:46 ULAT" name="Free CRM App Test" finished-at="2021-03-19T14:07:33 ULAT" duration-ms="226276">
-      <class name="com.crm.qa.testcases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:04:55 ULAT" name="setUp" finished-at="2021-03-19T14:05:11 ULAT" duration-ms="16491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateHomePageTitle()[pri:1, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:05:11 ULAT" name="validateHomePageTitle" finished-at="2021-03-19T14:05:11 ULAT" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:05:11 ULAT" name="tearDown" finished-at="2021-03-19T14:05:12 ULAT" duration-ms="794" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:05:12 ULAT" name="setUp" finished-at="2021-03-19T14:05:30 ULAT" duration-ms="17523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateUserNameLabel()[pri:2, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:05:30 ULAT" name="validateUserNameLabel" finished-at="2021-03-19T14:05:30 ULAT" duration-ms="137" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUserNameLabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:05:30 ULAT" name="tearDown" finished-at="2021-03-19T14:05:31 ULAT" duration-ms="815" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:05:31 ULAT" name="setUp" finished-at="2021-03-19T14:05:51 ULAT" duration-ms="20216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateContactsLink()[pri:3, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:05:51 ULAT" name="validateContactsLink" finished-at="2021-03-19T14:05:52 ULAT" duration-ms="1415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateContactsLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:05:52 ULAT" name="tearDown" finished-at="2021-03-19T14:05:53 ULAT" duration-ms="859" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:05:53 ULAT" name="setUp" finished-at="2021-03-19T14:06:13 ULAT" duration-ms="19832" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateDealsLink()[pri:4, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:06:13 ULAT" name="validateDealsLink" finished-at="2021-03-19T14:06:14 ULAT" duration-ms="1194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateDealsLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:06:14 ULAT" name="tearDown" finished-at="2021-03-19T14:06:15 ULAT" duration-ms="903" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:06:15 ULAT" name="setUp" finished-at="2021-03-19T14:06:31 ULAT" duration-ms="16421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateTasksLink()[pri:5, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:06:31 ULAT" name="validateTasksLink" finished-at="2021-03-19T14:06:33 ULAT" duration-ms="1178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateTasksLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@483f6d77]" started-at="2021-03-19T14:06:33 ULAT" name="tearDown" finished-at="2021-03-19T14:06:33 ULAT" duration-ms="777" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
-      <class name="com.crm.qa.testcases.ContactsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7e5afaa6]" started-at="2021-03-19T14:06:33 ULAT" name="setUp" finished-at="2021-03-19T14:06:54 ULAT" duration-ms="20823" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyContactsLabelTest()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@7e5afaa6]" started-at="2021-03-19T14:06:54 ULAT" name="verifyContactsLabelTest" finished-at="2021-03-19T14:06:54 ULAT" duration-ms="83" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsLabelTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7e5afaa6]" started-at="2021-03-19T14:06:54 ULAT" name="tearDown" finished-at="2021-03-19T14:06:55 ULAT" duration-ms="813" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7e5afaa6]" started-at="2021-03-19T14:06:55 ULAT" name="setUp" finished-at="2021-03-19T14:07:11 ULAT" duration-ms="15653" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="selectSingleContactsTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@7e5afaa6]" started-at="2021-03-19T14:07:11 ULAT" name="selectSingleContactsTest" finished-at="2021-03-19T14:07:11 ULAT" duration-ms="143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectSingleContactsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7e5afaa6]" started-at="2021-03-19T14:07:11 ULAT" name="tearDown" finished-at="2021-03-19T14:07:12 ULAT" duration-ms="822" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7e5afaa6]" started-at="2021-03-19T14:07:12 ULAT" name="setUp" finished-at="2021-03-19T14:07:29 ULAT" duration-ms="17378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="selectMultipleContactsTest()[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@7e5afaa6]" started-at="2021-03-19T14:07:29 ULAT" name="selectMultipleContactsTest" finished-at="2021-03-19T14:07:29 ULAT" duration-ms="284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectMultipleContactsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7e5afaa6]" started-at="2021-03-19T14:07:29 ULAT" name="tearDown" finished-at="2021-03-19T14:07:32 ULAT" duration-ms="2172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTest@7e5afaa6]" started-at="2021-03-19T14:07:32 ULAT" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2021-03-19T14:07:32 ULAT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.NoSuchMethodError: org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTFontsImpl.getXmlObjectArray(Ljavax/xml/namespace/QName;[Lorg/apache/xmlbeans/XmlObject;)[Lorg/apache/xmlbeans/XmlObject;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NoSuchMethodError: org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTFontsImpl.getXmlObjectArray(Ljavax/xml/namespace/QName;[Lorg/apache/xmlbeans/XmlObject;)[Lorg/apache/xmlbeans/XmlObject;
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NoSuchMethodError: org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTFontsImpl.getXmlObjectArray(Ljavax/xml/namespace/QName;[Lorg/apache/xmlbeans/XmlObject;)[Lorg/apache/xmlbeans/XmlObject;
-at org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTFontsImpl.getFontArray(CTFontsImpl.java:71)
-at org.apache.poi.xssf.model.StylesTable.readFrom(StylesTable.java:210)
-at org.apache.poi.xssf.model.StylesTable.<init>(StylesTable.java:138)
-at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:61)
-at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:660)
-at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:165)
-at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:278)
-at org.apache.poi.xssf.usermodel.XSSFWorkbookFactory.createWorkbook(XSSFWorkbookFactory.java:118)
-at org.apache.poi.xssf.usermodel.XSSFWorkbookFactory.create(XSSFWorkbookFactory.java:98)
-at org.apache.poi.xssf.usermodel.XSSFWorkbookFactory.create(XSSFWorkbookFactory.java:36)
-at org.apache.poi.ss.usermodel.WorkbookFactory.lambda$create$2(WorkbookFactory.java:199)
-at org.apache.poi.ss.usermodel.WorkbookFactory.wp(WorkbookFactory.java:295)
-at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:199)
-at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:163)
-at com.crm.qa.util.TestUtil.getTestData(TestUtil.java:41)
-at com.crm.qa.testcases.ContactsPageTest.getCRMTestData(ContactsPageTest.java:60)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreateNewContact -->
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+    <test started-at="2021-03-19T19:43:16 ULAT" name="Default test" finished-at="2021-03-19T19:44:00 ULAT" duration-ms="44308">
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:03:46 ULAT" name="setUp" finished-at="2021-03-19T14:04:00 ULAT" duration-ms="14193" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6bedbc4d]" started-at="2021-03-19T19:43:16 ULAT" name="setUp" finished-at="2021-03-19T19:43:28 ULAT" duration-ms="12344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:00 ULAT" name="loginPageTitleTest" finished-at="2021-03-19T14:04:00 ULAT" duration-ms="24" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login page title does not match expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login page title does not match expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@6bedbc4d]" started-at="2021-03-19T19:43:28 ULAT" name="loginPageTitleTest" finished-at="2021-03-19T19:43:28 ULAT" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:00 ULAT" name="tearDown" finished-at="2021-03-19T14:04:01 ULAT" duration-ms="786" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6bedbc4d]" started-at="2021-03-19T19:43:28 ULAT" name="tearDown" finished-at="2021-03-19T19:43:29 ULAT" duration-ms="873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:01 ULAT" name="setUp" finished-at="2021-03-19T14:04:11 ULAT" duration-ms="10130" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6bedbc4d]" started-at="2021-03-19T19:43:29 ULAT" name="setUp" finished-at="2021-03-19T19:43:39 ULAT" duration-ms="10233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:11 ULAT" name="loginPageTitleTest" finished-at="2021-03-19T14:04:11 ULAT" duration-ms="81" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login page title does not match expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login page title does not match expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:12 ULAT" name="tearDown" finished-at="2021-03-19T14:04:12 ULAT" duration-ms="832" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:12 ULAT" name="setUp" finished-at="2021-03-19T14:04:23 ULAT" duration-ms="10392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:23 ULAT" name="loginPageTitleTest" finished-at="2021-03-19T14:04:23 ULAT" duration-ms="49" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login page title does not match expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login page title does not match expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:23 ULAT" name="tearDown" finished-at="2021-03-19T14:04:24 ULAT" duration-ms="872" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:24 ULAT" name="setUp" finished-at="2021-03-19T14:04:30 ULAT" duration-ms="6499" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:30 ULAT" name="loginPageTitleTest" finished-at="2021-03-19T14:04:30 ULAT" duration-ms="47" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login page title does not match expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login page title does not match expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:30 ULAT" name="tearDown" finished-at="2021-03-19T14:04:31 ULAT" duration-ms="803" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:31 ULAT" name="setUp" finished-at="2021-03-19T14:04:37 ULAT" duration-ms="6127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:37 ULAT" name="crmLogoImageTest" finished-at="2021-03-19T14:04:37 ULAT" duration-ms="133" status="PASS">
+        <test-method signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@6bedbc4d]" started-at="2021-03-19T19:43:39 ULAT" name="crmLogoImageTest" finished-at="2021-03-19T19:43:39 ULAT" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crmLogoImageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:37 ULAT" name="tearDown" finished-at="2021-03-19T14:04:38 ULAT" duration-ms="790" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6bedbc4d]" started-at="2021-03-19T19:43:39 ULAT" name="tearDown" finished-at="2021-03-19T19:43:40 ULAT" duration-ms="841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:38 ULAT" name="setUp" finished-at="2021-03-19T14:04:48 ULAT" duration-ms="9627" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6bedbc4d]" started-at="2021-03-19T19:43:40 ULAT" name="setUp" finished-at="2021-03-19T19:43:50 ULAT" duration-ms="10185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:48 ULAT" name="loginTest" finished-at="2021-03-19T14:04:54 ULAT" duration-ms="6245" status="PASS">
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@6bedbc4d]" started-at="2021-03-19T19:43:50 ULAT" name="loginTest" finished-at="2021-03-19T19:43:59 ULAT" duration-ms="8742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5403f35f]" started-at="2021-03-19T14:04:54 ULAT" name="tearDown" finished-at="2021-03-19T14:04:55 ULAT" duration-ms="816" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6bedbc4d]" started-at="2021-03-19T19:43:59 ULAT" name="tearDown" finished-at="2021-03-19T19:44:00 ULAT" duration-ms="826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- Free CRM App Test -->
-  </suite> <!-- Free CRM Application Test Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
